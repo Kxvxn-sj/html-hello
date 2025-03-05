@@ -1,38 +1,48 @@
 body {
-    font-family: Arial;
-    background-color: grey;
-    margin: 0px
-}
-header {
-    background: white;
-    padding: 10px;
-}
-h1 {
-    margin: 0;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
 }
 .post {
-    margin-top: 20px;
     background-color: white;
+    width: 40%;
+    margin: auto;
+    margin-top: 150px;
+}
+.head-post {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 img {
-    width: 100%
+    width: 100%;
 }
-.post-header div:first-child{
-    display: inline-block;
-    width: 80%;
+.icon {
+    align-self: center;
+    font-size: 3em;
+    margin-left: 10px;
 }
-.post-header div:last-child{
-    display: inline-block;
-    width: 19%;
-    text-align: right;
-    color: darkgrey;
+span {
+    width: 81%;
+    margin-left: 10px;
+    align-self: center;
 }
-div.post h2, div.post p{
-    padding: 10px;
-    background-color: white;
-    margin: 0;
+.icon2 {
+    align-self: center;
+    font-size: 2.5em;
 }
-.container{
-    width: 600px;
-    margin: auto;
+.pie {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.icon-pie {
+    display: flex;
+}
+.icon3 {
+    font-size: 2em;
+    width: 94%;
+}
+.icon4 {
+    font-size: 2em;
 }
